@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <header className='flex items-center justify-between gap-2 font-bold px-10 py-5'>
+    <header className='flex items-center justify-between gap-2 font-bold px-8 py-4'>
       <Link href='/' className='flex items-center gap-2'>
         <Image
           src='https://creativevaluemarketing.com/assets/images/favicon.svg'
@@ -17,7 +17,7 @@ const Header = () => {
         <Link
           href='https://creativevaluemarketing.com/'
           target='_blank'
-          className='transition-colors duration-300 px-5 py-3 text-sm md:text-base bg-gray-900 text-yellow-600 hover:text-gray-900 hover:bg-yellow-600 flex items-center rounded-full text-center'
+          className='transition-colors duration-300 px-5 py-3 text-sm md:text-base bg-primary text-light border-2 border-primary hover:text-primary hover:bg-light flex items-center rounded-full text-center'
         >
           Besök Creative Value Marketing nu!
         </Link>

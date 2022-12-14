@@ -1,3 +1,4 @@
+import Banner from '../../components/Banner'
 import Header from '../../components/Header'
 import '../../styles/globals.css'
 
@@ -8,10 +9,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='se'>
-      <body>
+      <body className='container antialiased mx-auto'>
         <Header />
-        {/* Banner */}
-        {children}
+        <Banner />
+        <main className='prose max-w-none'>{children}</main>
       </body>
     </html>
   )
